@@ -1,0 +1,29 @@
+# Environment and Local Config
+.env
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Frontend
+node_modules/
+dist/
+dist-ssr/
+*.local
+.npm/
+
+# Logs and Storage
+*.log
+uploads/*
+!uploads/.gitkeep
+backend/uploads/*
+!backend/uploads/.gitkeep
+scratch/
+.DS_Store
+Thumbs.db
