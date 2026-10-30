@@ -11,7 +11,7 @@ git remote set-url origin https://github.com/yadavprabhat983-oss/MM-chatbot.git
 git branch -M main
 
 echo Uploading commits to GitHub...
-git push -u origin main
+git push -u origin main --force
 
 if %errorlevel% equ 0 (
     echo.
